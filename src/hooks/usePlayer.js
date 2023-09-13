@@ -28,7 +28,7 @@ export const usePlayer = () => {
       collided: false,
     });
     setCurrentWord(newWord[0].join(''));
-  }, []);
+  }, [setCurrentWord]);
 
   return [player, updatePlayerPos, resetPlayer];
 };
