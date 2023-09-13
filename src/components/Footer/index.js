@@ -15,7 +15,7 @@ export const Footer = ({startGame, openHint, moveRight, moveLeft, moveDown}) => 
     <FooterWrapper>
       {/* replay button */}
       <div className="footer_left_content">
-        <div onClick={startGame}><MdOutlineReplay /><span style={{ color: 'white' }}>Start</span></div>
+        <div onClick={startGame}><MdOutlineReplay /></div>
         <div className="md_left_content" onClick={openHint}> <HiLightBulb /></div>
       </div>
 
